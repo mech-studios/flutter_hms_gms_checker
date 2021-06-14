@@ -1,9 +1,3 @@
-# flutter_hms_gms_checker
-
-A null safe porting of https://pub.dev/packages/flutter_hms_gms_availability
-
-# Example
-```dart
 import 'package:flutter/material.dart';
 import 'package:flutter_hms_gms_checker/flutter_hms_gms_checker.dart';
 
@@ -46,5 +40,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
-```

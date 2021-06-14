@@ -1,0 +1,25 @@
+name: flutter_hms_gms_checker
+description: Check whether gms or hms services are available on device.
+version: 1.0.0
+homepage: https://github.com/magicleon94/flutter_hms_gms_checker
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.magicleon94.flutter_hms_gms_checker
+        pluginClass: FlutterHmsGmsCheckerPlugin
+      ios:
+        pluginClass: FlutterHmsGmsCheckerPlugin
