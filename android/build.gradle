@@ -27,6 +27,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.mechstudios.flutter_hms_gms_checker'
     compileSdkVersion 30
 
     sourceSets {
